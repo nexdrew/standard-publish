@@ -34,6 +34,7 @@
   "homepage": "https://github.com/nexdrew/standard-publish#readme",
   "dependencies": {
     "execa": "^0.4.0",
+    "log-symbols": "^1.0.2",
     "np": "^2.1.0",
     "require-inject": "^1.4.0",
     "standard-version": "^2.3.1"

@@ -18,6 +18,6 @@ const np = requireInject.withEmptyCache('np', {
 try {
   np()
 } catch (err) {
-  console.error(process.platform === 'win32' ? '×' : '✖', err.message)
+  console.error(require('log-symbols').error, err.message)
   process.exit(1)
 }
