@@ -1,0 +1,46 @@
+{
+  "name": "standard-publish",
+  "version": "0.1.0",
+  "description": "The standard way to npm publish",
+  "bin": {
+    "sp": "cli.js"
+  },
+  "scripts": {
+    "pretest": "standard",
+    "test": "nyc ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nexdrew/standard-publish.git"
+  },
+  "keywords": [
+    "standard",
+    "publish",
+    "npm",
+    "np",
+    "version",
+    "changelog",
+    "commit",
+    "bump",
+    "push",
+    "git",
+    "cli"
+  ],
+  "author": "nexdrew",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nexdrew/standard-publish/issues"
+  },
+  "homepage": "https://github.com/nexdrew/standard-publish#readme",
+  "dependencies": {
+    "execa": "^0.4.0",
+    "np": "^2.1.0",
+    "require-inject": "^1.4.0",
+    "standard-version": "^2.3.1"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "nyc": "^6.6.1",
+    "standard": "^7.1.2"
+  }
+}
